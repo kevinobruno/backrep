@@ -12,5 +12,15 @@
     "axios": "0.19.0",
     "crypto-js": "3.1.9-1",
     "lodash": "4.17.11"
-  }
+  },
+  "keywords": [
+    "http-record",
+    "e2e",
+    "mocks",
+    "automation",
+    "replay",
+    "record",
+    "backrep",
+    "e2e-tests"
+  ]
 }
