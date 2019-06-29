@@ -1,6 +1,6 @@
 {
   "name": "backrep",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Record and play your backend HTTP requests to make your e2e (end-to-end) tests easily reproducible in CI/CD environment.",
   "main": "index.js",
   "license": "MIT",
