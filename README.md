@@ -40,5 +40,15 @@ Basically it's a contract with the client side and this server, every time a req
 made with same parameteres and/or body, that response will be returned, so your e2e tests will 
 always have the same results.
 
+Note that this approach works with any kind of clients, React websites, React Native apps, etc.
+
+## Docker
+
+If your backend uses docker containers, make sure to see [docker example](examples/docker).
+
+It's important to note that with the docker container implementation, you can make a 
+repository with the backrep server plus the records that you've taped, and just up the
+container in your CI/CD environment that is running the e2e tests.
+
 ## License
 MIT

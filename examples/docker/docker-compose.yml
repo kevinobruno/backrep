@@ -1,0 +1,22 @@
+version: "3.4"
+services:
+  backrep:
+    build: .
+    command: node index.js
+    container_name: backrep
+    environment:
+      - CONTAINER_NAME=myContainer
+      - CONTAINER_PORT=3030
+      - PORT=4000
+    ports:
+      - 4000:4000
+    restart: unless-stopped
+    networks:
+      - your_network
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+networks:
+  your_network:
+    external: true
