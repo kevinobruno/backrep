@@ -9,7 +9,7 @@
     "url": "https://github.com/kevinobruno/backrep"
   },
   "dependencies": {
-    "axios": "0.19.0",
+    "axios": "0.21.1",
     "crypto-js": "3.1.9-1",
     "lodash": "4.17.13"
   },
